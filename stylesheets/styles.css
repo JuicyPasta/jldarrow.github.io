@@ -216,7 +216,7 @@ td {
 
 .sidebar {
     background-color: #1D0040;
-    color: #FDFDFB;
+    color: #FDFEEA;
     width: 15rem;
     position:fixed;
     top:0;
@@ -254,20 +254,33 @@ a.name {
     white-space: nowrap;
 }
 
-.sidebar ul {
+#content {
+    display: block;
+}
+#contact {
+    display: none;
+}
+
+.sidebar ul, ul.list {
     list-style:none;
     padding:0;
 }
 
-.sidebar li {
+
+.list li {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 20px;
     list-style-type: none;
-    width:132px;
     height:15px;
     margin-bottom: 2px;
     line-height: 1em;
     padding: 6px 6px 6px 7px;
+}
+#contact li{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#contact {
+    padding-top: 34px;
 }
 
 .sidebar li:hover {
@@ -299,9 +312,28 @@ a.buttons:hover {
     width:650px;
     float:left;
     padding-bottom:50px;
-    margin-left: 25rem;
+    margin-left: 23rem;
 }
 
+.project {
+
+}
+.project > a {
+}
+.project-name {
+    margin-bottom: 0px;
+}
+.project-image {
+    width: 400px;
+    height: 75px;
+    border-radius: 5px;
+    padding: 0px;
+
+    margin-bottom: 0px;
+}
+.project-description {
+
+}
 
 /* Footer */
 
