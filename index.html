@@ -18,42 +18,79 @@
 <div class="wrapper">
 
     <div class="sidebar">
+        <div class="name">
+        <h4 class="whoami">$whoami</h4>
         <h1 class="header">Jackson Darrow</h1>
-        <p class="header"></p>
+        </div>
 
-        <ul class="list">
-            <li><a id="projects-button">Projects</a></li>
-            <li><a id="contact-button">Contact</a></li>
-        </ul>
-    </div>
-
-    <div class="section" id="contact">
-        <ul class="list">
-            <li>email: jldarrow@[university].edu</li>
-            <li><a href="https://github.com/juicypasta">github</a></li>
-            <li><a href="https://www.linkedin.com/in/jacksondarrow">linkedin</a></li>
-            <li><a href="/jacksondarrow_resume.pdf">resume</a></li>
+        <ul class="contact">
+            <li><a href="https://github.com/juicypasta"><p>github</p></a></li>
+            <li><a href="https://www.linkedin.com/in/jacksondarrow"><p>linkedin</p></a></li>
+            <li><a href="images/jacksondarrow_resume.pdf"><p>resume</p></a></li>
         </ul>
     </div>
 
     <div class="section" id="content">
+        <h3> About Me </h3>
+        <p>
+            Hello, I am an undergrad student studing computer science at Cal Poly SLO. This website is just a list some of the things I've been working on lateley, I also hope to add some writeups and tutorials in the future.
+        </p>
+
         <h3>
             <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects
         </h3>
 
         <div class="project">
             <h4 class="project-name">tlsummary</h4>
-            <a href="http://www.google.com"><img class="project-image"></a>
+            <a href="http://www.google.com">
+                <div class="img-holder">
+                    <img class="project-image" >
+                </div>
+            </a>
             <p class="project-description">
+                Small side project inspired by the tldrbot on Reddit. The extension allows you to highlight selections of text and generate a quick summary.
             </p>
         </div>
 
         <div class="project">
             <h4 class="project-name">honeypot</h4>
-            <a href="http://www.google.com"><img class="project-image"></a>
+            <a href="http://honeypot.jacksondarrow.com:8888/honeypot-1.0/">
+                <div class="img-holder">
+                    <img class="project-image" src="images/honeypot-screenshot.png">
+                </div>
+            </a>
             <p class="project-description">
+                My CPE 305 project where I created a network honeypot that attempts to impersonate different types of services. The website shows data about each connection and interesting aggregated data that it gets from different connections.
             </p>
         </div>
+
+        <div class="project">
+            <h4 class="project-name">robotgreeter</h4>
+            <a href="">
+                <div class="img-holder">
+                    <img class="project-image" src="">
+                </div>
+            </a>
+            <p class="project-description">
+                Twitter bot that greets new robots
+            </p>
+        </div>
+
+        <div class="project">
+            <h4 class="project-name">dotfiles</h4>
+            <a href="">
+                <div class="img-holder">
+                    <img class="project-image" src="">
+                </div>
+            </a>
+            <p class="project-description">
+                Best dotfiles in the game
+            </p>
+        </div>
+
+        <h3>
+            <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Writeups
+        </h3>
 
     </div>
 </div>
