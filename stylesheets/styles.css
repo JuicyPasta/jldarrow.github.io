@@ -28,8 +28,8 @@ time, mark, audio, video {
 body {
     font-family:"Open Sans", sans-serif;
     font-size: 14px;
-    color: #657B83;/*#232323;*/
-    background-color: #FDF6E3;
+    color: #3c4a52;/*#232323;*/
+    background-color:white; /*#FDF6E3;*/
     margin: 0;
     line-height: 1.8em;
     -webkit-font-smoothing: antialiased;
@@ -169,7 +169,7 @@ h1.header {
     position: relative;
     overflow: hidden;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
-    width: 475px;
+    width: 550px;
     height: 75px;
     border-radius: 5px;
     padding: 0px;
